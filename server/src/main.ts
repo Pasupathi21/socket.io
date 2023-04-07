@@ -8,7 +8,6 @@ const socket = new Server(3001, {
     }
 })
 
-socket.of
 
 socket.on('connection', (socket) => {
     socket.emit('test-emit', ['test emit successfully'])
